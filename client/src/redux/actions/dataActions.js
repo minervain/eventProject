@@ -4,7 +4,7 @@ import { setData } from '../inputSlice/inputSlice';
 import useDataFetch from '../../hooks/useDataFetch';
 
 function DataFetcher() {
-  const apiEndpoint = 'http://localhost:3000/api/etkinlikler'; 
+  const apiEndpoint = 'https://etkinlikapi-bbbl.vercel.app/api/etkinlikler'; 
   const { data, loading, error } = useDataFetch(apiEndpoint);
   const dispatch = useDispatch();
 
