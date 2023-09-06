@@ -1,0 +1,56 @@
+@import '../abstract/veriable.scss';
+
+
+.poster-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+
+    img {
+        background-position: cover;
+        width: 60%;
+        height: 350px;
+     
+
+
+
+    }
+}
+
+
+.Acıklama{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    p,h3{
+        color: $textcolor;
+        padding: 1.2rem;
+        font-weight: bold;
+
+    }
+
+
+}
+.socialMedia{
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .socials{
+        display: flex;
+    }
+    a{
+        margin: 1rem;
+    }
+    a:hover{
+        background-color: aqua;
+    }
+    h1{
+        font-weight: bold;
+    }
+}

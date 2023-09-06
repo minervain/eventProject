@@ -1,0 +1,25 @@
+
+@import '../abstract/veriable.scss';
+
+
+.input-contain{
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+
+    input{
+        color: white;
+        width: 100%;
+        outline: none;
+        background-color: transparent;
+        padding: 0.5rem;
+        border-radius: 5px;
+        margin-right: 3rem;
+    }
+}
+
+.icon{
+    position: absolute;
+
+}
